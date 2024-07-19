@@ -1,0 +1,80 @@
+================================================================================
+                          Emandulo House Mobile App
+================================================================================
+
+                                  Documentation
+
+================================================================================
+
+1. Overview:
+
+   The Emandulo House Mobile App is a cross-platform mobile application designed
+   to celebrate and promote cultural diversity by offering a variety of traditional
+   products. Users can explore and purchase products categorized under Xhosa, Zulu,
+   Venda, and Beadwork, thereby supporting artisans and preserving cultural heritage.
+
+2. Features:
+
+   - User-friendly interface with easy navigation.
+   - Immersive cultural experience through high-quality images and descriptions.
+   - Categorized product listings for Xhosa, Zulu, Venda, and Beadwork.
+   - Product details including name, price, description, and available sizes.
+   - Ability to add products to favorites for future reference.
+   - Cart functionality for managing selected items and proceeding to checkout.
+
+3. Components:
+
+   a. Home:
+      - Main screen displaying the app name and a brief description.
+      - Navigation buttons to explore product categories.
+
+   b. ProductCategory:
+      - Displays categories such as Xhosa, Zulu, Venda, and Beadwork.
+      - Allows users to select a category to view corresponding products.
+
+   c. ProductList:
+      - Lists products based on the selected category.
+      - Each product displays an image, name, and price.
+      - Users can tap on a product to view its details.
+
+   d. ProductDetails:
+      - Provides detailed information about a selected product.
+      - Includes product image, name, price, description, and size selection.
+      - Options to add the product to favorites or cart.
+
+   e. ShoppingCart:
+      - Displays the items added to the cart.
+      - Allows users to modify the quantity of items or remove them.
+      - Total price calculation and option to proceed to checkout.
+
+   f. FavoriteList:
+      - Lists the products added to favorites.
+      - Users can remove items from favorites or add them to the cart.
+
+4. Contexts:
+
+   a. FavoriteContext:
+      - Manages the state of favorite products across the app.
+      - Provides functions to add or remove products from favorites.
+
+   b. CartContext:
+      - Manages the state of items in the shopping cart.
+      - Includes functions to add, remove, or update quantities of cart items.
+
+5. Hooks:
+
+   - useFonts:
+      - Custom hook to load custom fonts asynchronously during app startup.
+
+6. External Libraries:
+
+   - react-native: A framework for building native mobile apps using React.
+   - react-native-animatable: Allows for easy animations in React Native.
+   - @expo/vector-icons: Provides access to vector icons for UI components.
+   - @react-native-picker/picker: Enables the use of a native picker component.
+
+================================================================================
+
+                                   End of Document
+
+================================================================================
